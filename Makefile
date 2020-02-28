@@ -23,6 +23,7 @@ demo: $(SRC) $(OBJ) $(HEADER)
 
 clean:
 	$(RM) $(OBJ)
+	$(RM) *.cor
 
 fclean: clean
 	$(RM) demo
